@@ -595,6 +595,22 @@ video {
   height: 1rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -953,6 +969,10 @@ video {
     height: 300px;
   }
 
+  .md\:h-auto {
+    height: auto;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1028,5 +1048,10 @@ video {
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
